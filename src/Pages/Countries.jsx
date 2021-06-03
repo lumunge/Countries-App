@@ -74,9 +74,9 @@ const SearchPage = () => {
 								<img src={country.flag} alt={country.name} />
 							</div>
 							<div className="description">
-								<p className="title">{country.name}</p>
+								<p className="country-name">{country.name}</p>
 								<p className="title">Total Population:</p>
-								<span>{country.population}</span>
+								<span>{country.population.toLocaleString("en-US")}</span>
 								<p className="title">Spoken Languages:</p>
 								<span>
 									{country.languages.map((language) => (
