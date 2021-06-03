@@ -101,7 +101,7 @@ export const FilterBtn = styled.button`
 	margin: 1rem 1rem;
 	background: transparent;
 	padding: 5px 10px;
-	border: 2px solid #2ecc71;
+	border: 2px outset #2ecc71;
 	font-size: 1.2rem;
 	text-transform: capitalize;
 
