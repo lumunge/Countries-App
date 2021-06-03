@@ -17,7 +17,7 @@ functionalities.
 
 ### PROJECT SCREENSHOT
 
-    ![Screenshot_20210603_201134](https://user-images.githubusercontent.com/58906058/120684443-35168300-c48e-11eb-8fb0-b4581caea149.png)
+    ![Screenshot_20210603_201134](https://user-images.githubusercontent.com/58906058/120686409-75770080-c490-11eb-9974-5db0d97420ad.png)
 
 ### HOSTED @
 
