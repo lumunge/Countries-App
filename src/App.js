@@ -1,10 +1,9 @@
-import { GlobalStyle } from "./AppStyles";
-import Countries from "./Pages/Countries";
+import Countries from "./Components/Countries/Countries";
+import "./App.css";
 
 const App = () => {
 	return (
 		<div className="App">
-			<GlobalStyle />
 			<Countries />
 		</div>
 	);
