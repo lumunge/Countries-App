@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACC,yDACD","file":"main.9b43e220.chunk.css","sourcesContent":["body {\n\tbackground-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);\n}\n"]}
