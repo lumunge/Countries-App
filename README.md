@@ -20,6 +20,10 @@ functionalities.
 
 ![Screenshot_20210607_033038](https://user-images.githubusercontent.com/58906058/120945044-1383f880-c727-11eb-8a4b-15ffeee2534c.png)
 
+-   RESPONSIVE DESIGN
+
+![Screenshot_20210607_033353](https://user-images.githubusercontent.com/58906058/120945144-7a091680-c727-11eb-85b0-56bcfe54065c.png)
+
 ### HOSTED @
 
 [Search-Filtration](https://lumungep12.github.io/Search-Filtration/)
