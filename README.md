@@ -8,6 +8,7 @@ functionalities.
 ### TECHNOLOGIES USED:
 
     * Reactjs
+    * Material UI
     * API
 
 ### FEATURES
@@ -17,7 +18,7 @@ functionalities.
 
 ### PROJECT SCREENSHOT
 
-![Screenshot_20210603_203115](https://user-images.githubusercontent.com/58906058/120686865-f7672980-c490-11eb-863e-e9f59151bd2c.png)
+![Screenshot_20210607_033038](https://user-images.githubusercontent.com/58906058/120945044-1383f880-c727-11eb-8a4b-15ffeee2534c.png)
 
 ### HOSTED @
 
