@@ -7,7 +7,7 @@ import {
 	Typography,
 	CardMedia,
 	TextField,
-	Container,
+	Container
 } from "@material-ui/core";
 import axios from "axios";
 // styles
@@ -18,6 +18,7 @@ const Countries = () => {
 	const [countries, setCountries] = useState([]);
 	const [search, setSearch] = useState("");
 	const [filteredCountries, setFilteredCountries] = useState([]);
+	const [loading, setLoading] = useState(false);
 
 	// style classes
 	const classes = useStyles();
@@ -35,6 +36,7 @@ const Countries = () => {
 			.then((res) => {
 				const allCountries = res.data;
 				setCountries(allCountries);
+				setLoading(!loading);
 			})
 			.catch((error) => {
 				console.log(error);
@@ -71,6 +73,7 @@ const Countries = () => {
 				className={classes.searchBar}
 			/>
 			<Regions regions={allRegions} filterByRegion={filterByRegion} />
+			{loading ? (
 			<Grid container spacing={2}>
 				{filteredCountries.map((country) => (
 					<Grid item xs={12} sm={4}>
@@ -113,6 +116,11 @@ const Countries = () => {
 					</Grid>
 				))}
 			</Grid>
+			) : (
+				<div>
+					<Typography variant="h6">Patience Friend...</Typography>
+				</div>
+			)}
 		</Container>
 	);
 };
